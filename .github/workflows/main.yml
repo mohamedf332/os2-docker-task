@@ -47,7 +47,7 @@ jobs:
       - name: Confirm Success
         run: echo "Docker image built and pushed successfully"
 
-            - name: Build and push
+      - name: Build and push
         uses: docker/build-push-action@v5
         with:
           push: true
