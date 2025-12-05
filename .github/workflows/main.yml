@@ -27,3 +27,33 @@ jobs:
           push: true
           tags: mohamedf332/mohamed-tareq_2023040218:latest
           file: ./Dockerfile
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          push: true
+          tags: mohamedf332/mohamed-tareq_2023040218:latest
+          file: ./Dockerfile
+
+      - name: Confirm Success
+        run: echo "Docker image built and pushed successfully"
+
+      - name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          push: true
+          tags: mohamedf332/mohamed-tareq_2023040218:latest
+          file: ./Dockerfile
+
+      - name: Confirm Success
+        run: echo "Docker image built and pushed successfully"
+
+            - name: Build and push
+        uses: docker/build-push-action@v5
+        with:
+          push: true
+          tags: mohamedf332/mohamed-tareq_2023040218:latest
+          file: ./Dockerfile
+
+      - name: Confirm Success
+        run: echo " tttttttttttttttttt Docker image built and pushed successfully"
+
